@@ -17,23 +17,23 @@ It demonstrates the use of STL containers (`vector`, `deque`, `list`, `set`, `ma
 You need a C++ compiler (like g++ from MinGW or GCC):
 
 ```sh
-g++ -o onlineStore stlStore.cpp
+g++ -o stlStore stlStore.cpp
 ```
 
 For a statically linked Windows executable (no DLLs needed):
 
 ```sh
-g++ -static -o onlineStore.exe stlStore.cpp
+g++ -static -o stlStore.exe stlStore.cpp
 ```
 
 ## How to Run
 
 ```sh
-./onlineStore
+./stlStore
 ```
 or on Windows:
 ```sh
-onlineStore.exe
+stlStore.exe
 ```
 
 ## Usage
